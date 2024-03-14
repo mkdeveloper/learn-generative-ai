@@ -10,7 +10,6 @@ from fastapi_neon import settings
 # https://realpython.com/python-assert-statement/
 # https://understandingdata.com/posts/list-of-python-assert-statements-for-unit-tests/
 
-# postgresql://ziaukhan:oSUqbdELz91i@ep-polished-waterfall-a50jz332.us-east-2.aws.neon.tech/neondb?sslmode=require
 
 def test_read_main():
     client = TestClient(app=app)
